@@ -9,7 +9,6 @@ const ImageCard = (props) => {
             <p>De:{props.oldPrice}</p>
             <h4>Por: {props.price}</h4>
             <p>ou: {props.installmentCount} de R${props.installmentValue}</p>
-
         </div>
     );
 }

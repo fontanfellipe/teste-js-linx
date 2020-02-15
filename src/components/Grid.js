@@ -6,9 +6,8 @@ const Grid = (props) => {
 
     const products = props.products.map((product) => {
         return (
-            <div>
+            <div key={product.id}>
                 <ProductCard 
-                    key={product.id}
                     image={product.image}
                     name={product.name} 
                     oldPrice={product.oldPrice}
