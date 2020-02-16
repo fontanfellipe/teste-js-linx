@@ -20,7 +20,7 @@ const Grid = (props) => {
         )
     })
     return (
-        <div>
+        <div className="container">
             {products}
         </div>
     );

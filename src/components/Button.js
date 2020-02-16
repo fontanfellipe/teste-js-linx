@@ -11,7 +11,7 @@ export class Button extends Component {
     render() {
         return (
             <div>
-                {this.state.buttonToggle && <button onClick={this.handleButtonClick}>Ainda mais produtos aqui!</button>}
+                {this.state.buttonToggle && <button className="button-more-products" onClick={this.handleButtonClick}>Ainda mais produtos aqui!</button>}
             </div>
         );
     }
