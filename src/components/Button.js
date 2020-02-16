@@ -10,7 +10,6 @@ export class Button extends Component {
         this.setState({ buttonToggle: !this.state.buttonToggle})
         this.props.handleCallNextPage();
     }
-
     render() {
         return (
             <div className="central-cont-container-btn">

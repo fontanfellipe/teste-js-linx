@@ -31,9 +31,7 @@ const NewsLetter = () => {
                             <button type="submit" className="submit-button">Enviar agora!</button>
                         </div>
                     </form>
-               
             </div>
-            
         </div>
     );
 }

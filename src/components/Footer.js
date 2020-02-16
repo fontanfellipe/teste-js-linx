@@ -10,7 +10,6 @@ const Footer = () => {
                     <p>Linx Impulse</p>
                     <p>2019</p>
                 </div>
-
             </footer>
         </div>
     );

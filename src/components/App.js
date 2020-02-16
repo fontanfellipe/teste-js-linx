@@ -32,7 +32,6 @@ export class App extends Component {
             console.error('Failed retrieving information', err)
           });
     }
-
     //This function is called when the button "Ainda mais produtos aqui!" is clicked. The function call the page two of products populating the grid with more 8 products.
     handleCallNextPage = () => {
         axios.get(this.urlPageTwo)
@@ -48,7 +47,6 @@ export class App extends Component {
             console.error('Failed retrieving information', err);
           });
     }
-
     render() {
         return (
             //the app returning the webpage mounted with all components compounding the page
@@ -58,7 +56,6 @@ export class App extends Component {
                 <Button handleCallNextPage={this.handleCallNextPage} />
                 <NewsLetter/>
                 <Footer/>
-
             </div>
         );
     }

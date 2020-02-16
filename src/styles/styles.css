@@ -245,6 +245,11 @@ footer {
 
 /* responsiveness params */
 @media (max-width: 500px){
+
+    body {
+        width: fit-content;
+    }
+
     header {
         height: fit-content;
     }
