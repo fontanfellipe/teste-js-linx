@@ -86,7 +86,7 @@ header p {
 }
 
 .product-image {
-    border: 1.5px solid #707070;
+    border: 1px solid #707070;
     height: 148px;
     width: 202px;
 }
@@ -169,6 +169,7 @@ input {
     background: #FFFFFF  0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 4px;
+    color: #888888;
     font: 12px Helvetica;
     height: 39px;
     margin: 0;
