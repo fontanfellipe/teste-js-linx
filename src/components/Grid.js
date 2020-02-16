@@ -20,9 +20,15 @@ const Grid = (props) => {
         )
     })
     return (
-        <div className="container">
-            {products}
+        <div>
+            <div className="central-cont-container-text">
+                <h3>Sua seleção especial</h3>
+            </div>
+            <div className="grid">
+                {products}
+            </div>
         </div>
+     
     );
 }
 

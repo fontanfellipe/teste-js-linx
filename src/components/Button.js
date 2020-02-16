@@ -10,7 +10,7 @@ export class Button extends Component {
 
     render() {
         return (
-            <div>
+            <div className="central-cont-container-btn">
                 {this.state.buttonToggle && <button className="button-more-products" onClick={this.handleButtonClick}>Ainda mais produtos aqui!</button>}
             </div>
         );
