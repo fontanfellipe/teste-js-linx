@@ -1,3 +1,27 @@
+
+### Introduction
+This project was made with create-react-app and build in heroku (https://teste-js-linx.herokuapp.com/) and there is a plenty of information about how to make the app work below.
+
+### About the project
+Linx-Intership-Test
+
+This project was a great project to apply some really important concepts of javascript and react. Using some important built in functions of JS and ES6, fetch data and work with them and some principles of react like props and states.
+I divided the projects in some steps and pass these steps to github commits, they are:
+### boilerplate -everything is setup. (yarn, dependecies, localserver, heroku, github).
+### fetch data from the first url and populating the dom with the html backbone
+I did that first because I need the data to start give some structure to the project, specially the products grid, which is probably the most important component.
+### fetch data from the second url and append to the dom as well.
+I did that as second step to have all data to start build the most important part of the application (the products grid).
+### Style the products grid
+My priority was that the procuct grid was made, so once I got the data to make the grid I start to make it
+### finish the html and css of the static components
+After the products grid was working fine I focus on finish all the html and css that had to be done to make the webpage work as the mock.
+### css responsiveness - error handling - and small adjustments
+After I had the MVP of the webpage I focus and make it responsive to small screens as well and do some adjustments in the code as some clean up, and some refactoring in some fetched data.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

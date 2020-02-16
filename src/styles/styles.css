@@ -1,4 +1,14 @@
-@import '/components/grid.css';
+
+/* This CSS file contais all styles from the project.
+I divided it by sections to up to down, so scrolling down the archive it is possible to see the follow order of styling:
+- General Styles
+- Header
+- Grid
+- NewsLetter
+- Footer
+- Media query to responsiveness
+
+Each section of styles there is a sub section of "typography", which defines each paragraph and header as child to those css classes. This choice was made just to organizing train of thought and avoid mistakes about font size, font weight, color and etc.
 
 /*General CSS */
 body {
@@ -11,11 +21,13 @@ body {
 /*Header*/
 header {
     background-color: #707070;
-    max-height: 319.33px;
+    height: 319.33px;
     justify-content: center;
+    width: auto;
 }
 
 .inside-header {
+    width: auto;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -64,21 +76,19 @@ header p {
     justify-content: space-between;
     max-width: 970px;
     margin: auto ;
-    padding: auto;
+    
 }
 
 
 .product-card {
     margin: 40px 20px 0 20px;
-    width: 200px;
+    width: 199px;
 }
 
 .product-image {
-    height: 152px;
+    border: 1.5px solid #707070;
+    height: 148px;
     width: 202px;
-    border: 1px solid #707070;
-    margin: -5px;
-
 }
 
 .button-buy {
@@ -150,36 +160,32 @@ header p {
 }
 
 /* NewsLetter */
-
 input {
-    width: 340px;
     height: 30px;
+    width: 340px;
 }
 
-.submitButton {
-    width: 260px;
-    height: 39px;
-    margin: 20px;
+.submit-button {
+    background: #FFFFFF  0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 4px;
-    background: #FFFFFF  0% 0% no-repeat padding-box;
-    box-shadow: 0px 1px 6px #00000029;
     font: 12px Helvetica;
+    height: 39px;
+    margin: 0;
     opacity: 1;
+    width: 260px;
 }
 
-.formOrder {
+.form-order {
     display: flex;
-    text-align: start;
     justify-content: center;
- 
+    text-align: start;
 }
 
-.insideForm {
+.inside-form {
     color: #888888;
-    margin: 10px;
     letter-spacing: 0;
-
+    margin: 10px;
 }
 
 .central-cont-container-1 {
@@ -197,22 +203,78 @@ input {
 .central-cont-container-3 {
     display: flex;
     justify-content: center;
-    margin: 50px 0 142px 0;    
+    margin: 50px 0 142px 0;   
+    padding: 0; 
 }
 
+.central-cont-container-1 h3 {
+    color: #888888;
+}
+
+.central-cont-container-2 p {
+    color: #888888;
+    margin: 0;
+}
+
+.inside-form input {
+    margin-top: 7px;
+}
 /*footer*/
 footer {
-    height: 186.64px;
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #707070;
+    display: flex;
+    flex-direction: column;
+    height: 186.64px;
+    justify-content: center;
     width: auto;
 }
 
-footer p {
+.espacing-content {
+    height: 50px;
+    margin: 64 0 72 0;
+    width: 260px;
+}
+
+.espacing-content p {
     color: white;
+    font-size: 12px;
+    margin: 5px 0 0 0;
     text-align: center;
-    font-size: 12px/18px;
-    margin: 64px 0 72px 0;
+}
+
+/* responsiveness params */
+@media (max-width: 500px){
+    header {
+        height: fit-content;
+    }
+
+    .inside-header {
+        padding: 10px;
+    }
+
+    .button-header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .button-header {
+        margin: 8px;
+    }
+
+    header h1, p {
+        text-align: center;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-order {
+        flex-direction: column;
+        align-items: center;
+    }
 }
