@@ -1,9 +1,8 @@
 
 ### Introduction
-This project was made with create-react-app and build in heroku (https://teste-js-linx.herokuapp.com/) and there is a plenty of information about how to make the app work below.
-
+This project was made with create-react-app and build in heroku (https://teste-js-linx.herokuapp.com/) 
 ### About the project
-Linx-Intership-Test
+
 
 This project was a great project to apply some really important concepts of javascript and react. Using some important built in functions of JS and ES6, fetch data and work with them and some principles of react like props and states.
 I divided the projects in some steps and pass these steps to github commits, they are:
